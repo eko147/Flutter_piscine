@@ -48,7 +48,7 @@ class MyHomePage extends StatelessWidget {
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                //mainAxisAlignment: MainAxisAlignment.spaceAround,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   const Text(
                     "Name",
@@ -73,6 +73,9 @@ class MyHomePage extends StatelessWidget {
                       Text(" Body Blow"),
                     ],
                   ),
+                  // const SizedBox(
+                  //   height: 7,
+                  // ),
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: const [
